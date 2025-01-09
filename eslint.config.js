@@ -34,7 +34,8 @@ export default [
         { allowConstantExport: true },
       ],
       "no-unused-vars": ["warn", { "varsIgnorePattern": "^React$" }],
-      "react/prop-types": "off"
+      "react/prop-types": "off",
+      "react/jsx-key": "off"
     },
   },
 ]
